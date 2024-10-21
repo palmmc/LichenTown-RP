@@ -8,7 +8,7 @@ echo Reading config.json...  >> %log_file%
 for /f "tokens=*" %%i in ('powershell -command "Get-Content config.json | ConvertFrom-Json | Select-Object -ExpandProperty closeOnCompletion"') do set closeOnCompletion=%%i
 for /f "tokens=*" %%i in ('powershell -command "Get-Content config.json | ConvertFrom-Json | Select-Object -ExpandProperty destinationFolder"') do set destinationFolder=%%i
 
-set source_folder=".\build\"
+set source_folder=".\build"
 
 echo Found valid destination path. >> %log_file%
 if not exist "%destinationFolder%" mkdir "%destinationFolder%"
