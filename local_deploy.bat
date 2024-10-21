@@ -19,7 +19,7 @@ for /d %%d in ("%source_folder%\*") do (
     ) else (
         echo Error: Failed to copy %%~nxd >> %log_file%
     )
-)
+)t
 
 echo.  >> %log_file%
 echo Pack compilation successful!  >> %log_file%
