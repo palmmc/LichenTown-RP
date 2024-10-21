@@ -1,1 +1,12 @@
-deploy.log
+## Ignore log files.
+*.log
+## Ignore batch files.
+*.bat
+## Ignore license.
+LICENSE
+## Ignore README.
+README.md
+## Ignore config.json.
+config.json
+## Ignore gitattributes.
+.gitattributes
