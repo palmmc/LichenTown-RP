@@ -1,0 +1,62 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/netherite_sword"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "palm:item/plunger"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "item/netherite_sword"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 44401
+            },
+            "model": "palm:item/big_sword"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 44402
+            },
+            "model": "palm:item/cutlass"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 44403
+            },
+            "model": "palm:item/dao"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 44404
+            },
+            "model": "palm:item/double_axe"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 44405
+            },
+            "model": "palm:item/golden_blade"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 44406
+            },
+            "model": "palm:item/ssign"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 44407
+            },
+            "model": "item/netherite_sword"
+        }
+    ]
+}

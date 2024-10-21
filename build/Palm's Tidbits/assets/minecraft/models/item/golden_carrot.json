@@ -1,0 +1,56 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/golden_carrot"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1593
+            },
+            "model": "palm:item/pizza"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1594
+            },
+            "model": "item/golden_carrot"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2052
+            },
+            "model": "palm:item/pizza_slice"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2053
+            },
+            "model": "palm:item/pizza_slice_sausage"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2054
+            },
+            "model": "palm:item/pizza_slice_mushroom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2055
+            },
+            "model": "palm:item/pizza_slice_hawaiian"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2056
+            },
+            "model": "palm:item/pizza_slice_cheese"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2057
+            },
+            "model": "item/golden_carrot"
+        }
+    ]
+}

@@ -1,0 +1,178 @@
+{
+    "parent": "minecraft:block/orientable",
+    "textures": {
+        "front": "minecraft:block/carved_pumpkin",
+        "side": "minecraft:block/pumpkin_side",
+        "top": "minecraft:block/pumpkin_top"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "palm:item/pizzabot"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "palm:item/plunger"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "minecraft:block/carved_pumpkin"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 111
+            },
+            "model": "palm:item/pooky"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 112
+            },
+            "model": "palm:item/eyepatch"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 113
+            },
+            "model": "palm:item/eyepatch_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 114
+            },
+            "model": "palm:item/eyepatch_3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 115
+            },
+            "model": "minecraft:block/carved_pumpkin"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5934
+            },
+            "model": "palm:item/witch_hat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5935
+            },
+            "model": "palm:item/sunglasses"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5936
+            },
+            "model": "palm:item/sunglasses_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5937
+            },
+            "model": "palm:item/sunglasses_3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5938
+            },
+            "model": "palm:item/spelunker_hat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5939
+            },
+            "model": "minecraft:block/carved_pumpkin"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12956
+            },
+            "model": "palm:item/papaP_billboard"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12957
+            },
+            "model": "palm:item/poster1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12958
+            },
+            "model": "palm:item/bigtek"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12959
+            },
+            "model": "minecraft:block/carved_pumpkin"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 143434
+            },
+            "model": "palm:item/lice"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 143435
+            },
+            "model": "palm:item/chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 143436
+            },
+            "model": "palm:item/chair2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 143437
+            },
+            "model": "palm:item/guitar"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 143438
+            },
+            "model": "palm:item/snow_globe"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 143439
+            },
+            "model": "palm:item/sofa"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 143440
+            },
+            "model": "palm:item/stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 143441
+            },
+            "model": "palm:item/table1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 143442
+            },
+            "model": "palm:item/table2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 143443
+            },
+            "model": "minecraft:block/carved_pumpkin"
+        }
+    ]
+}
