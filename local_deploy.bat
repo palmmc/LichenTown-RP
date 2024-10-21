@@ -40,7 +40,7 @@ for /d %%d in ("%source_folder%\*") do (
     )
 
     :: Archive latest release
-    powershell -command "Compress-Archive -Path '%%d' -DestinationPath '%server_folder%\%%~nxd-latest.zip' -Force" 2>> %log_file%
+    powershell -command "Compress-Archive -Path '%%d\*' -DestinationPath '%server_folder%\%%~nxd-latest.zip' -Force" 2>> %log_file%
     if errorlevel 0 (
         echo ^> ZIP: %%~nxd was zipped and moved to server successfully! >> %log_file%
     ) else (
