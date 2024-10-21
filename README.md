@@ -66,5 +66,12 @@ Follow these steps to set up an environment to publish changes to the server res
 With that done, now just wait for your changes to be approved.
 If you would like, you can additionally message `palm1` on discord to inform me you have made changes.
 
+# Additional Warnings ⚠️
+- **MAKE SURE** to update your local workspace to the latest version *before* you make any changes.
+  - In the Github Desktop app, go to your workspace repository.
+  - In the 3 tabs second from the top, click the 'Fetch origin' tab.
+    - If it says 'No local changes', you're good.
+    - If it says there are changes, click 'Pull origin', and you're done!
+
 # Good luck!
 I look forward to seeing future contributions!
