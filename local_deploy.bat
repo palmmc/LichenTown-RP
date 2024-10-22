@@ -49,6 +49,9 @@ for /d %%d in ("%source_folder%\*") do (
 )
 
 echo. >> %log_file%
+certutil -hashfile "./server/Palms-Tidbits-latest.zip" SHA1 >> %log_file%
+
+echo. >> %log_file%
 echo Pack compilation successful! >> %log_file%
 
 :: Check if it should close when finished
