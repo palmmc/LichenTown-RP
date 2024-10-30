@@ -1,20 +1,20 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/paper"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/paper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1586
+      },
+      "model": "palm:item/stern_wheel"
     },
-    "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 1586
-            },
-            "model": "palm:item/stern_wheel"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 1587
-            },
-            "model": "item/paper"
-        }
-    ]
+    {
+      "predicate": {
+        "custom_model_data": 1587
+      },
+      "model": "item/paper"
+    }
+  ]
 }

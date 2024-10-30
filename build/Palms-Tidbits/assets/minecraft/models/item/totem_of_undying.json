@@ -1,26 +1,26 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/totem_of_undying"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/totem_of_undying"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 7975
+      },
+      "model": "palm:item/wand"
     },
-    "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 7975
-            },
-            "model": "palm:item/wand"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 7976
-            },
-            "model": "palm:item/pooky_pin"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 7977
-            },
-            "model": "item/totem_of_undying"
-        }
-    ]
+    {
+      "predicate": {
+        "custom_model_data": 7976
+      },
+      "model": "palm:item/pooky_pin"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7977
+      },
+      "model": "item/totem_of_undying"
+    }
+  ]
 }
